@@ -1,5 +1,21 @@
 # laravel-realtime
 
+## Quick Start
+
+```bash
+git clone https://github.com/Shaisolaris/laravel-realtime.git
+cd laravel-realtime
+cp .env.example .env
+composer install --no-interaction
+php artisan key:generate
+touch database/database.sqlite
+php artisan migrate --seed
+php artisan serve
+# Open http://localhost:8000
+# Login: admin@demo.com / demo123
+```
+
+
 ![CI](https://github.com/Shaisolaris/laravel-realtime/actions/workflows/ci.yml/badge.svg)
 
 Laravel 11 real-time platform with broadcasting via Reverb/Pusher, WebSocket channels (private, presence, public), queued jobs, live notifications, messaging with typing indicators, presence tracking, activity feeds, live dashboard metrics, and outbound webhook delivery with HMAC signatures and retry logic.
