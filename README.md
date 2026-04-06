@@ -1,5 +1,7 @@
 # laravel-realtime
 
+![CI](https://github.com/Shaisolaris/laravel-realtime/actions/workflows/ci.yml/badge.svg)
+
 Laravel 11 real-time platform with broadcasting via Reverb/Pusher, WebSocket channels (private, presence, public), queued jobs, live notifications, messaging with typing indicators, presence tracking, activity feeds, live dashboard metrics, and outbound webhook delivery with HMAC signatures and retry logic.
 
 ## Stack
