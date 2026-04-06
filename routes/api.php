@@ -38,3 +38,4 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::post('/webhooks/{id}/test', [WebhookController::class, 'test']);
     Route::delete('/webhooks/{id}', [WebhookController::class, 'destroy']);
 });
+// Demo mode: seed data available via php artisan db:seed
