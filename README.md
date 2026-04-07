@@ -1,5 +1,8 @@
 # laravel-realtime
 
+
+Laravel real-time application with Reverb/Pusher WebSocket broadcasting, event-driven notifications, and presence channels.
+
 ## Quick Start
 
 ```bash
